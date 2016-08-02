@@ -1,0 +1,19 @@
+{
+  "name": "hexo-typograf",
+  "version": "1.0.0",
+  "description": "Typograf plugin for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "typograf"
+  ],
+  "author": "Vasiliy Mamaevskiy",
+  "license": "ISC",
+  "dependencies": {
+    "typograf": "^5.3.3",
+    "object-assign": "^4.0.1"
+  }
+}
