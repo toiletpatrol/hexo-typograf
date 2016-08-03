@@ -6,7 +6,17 @@ var objectAssign = require('object-assign'),
     tp = new Typograf({lang: lang});
 
 hexo.extend.filter.register('after_post_render', function(data) {
-  return objectAssign(data, {
+  data.excerpt && objectAssign(data, {
+    excerpt: tp.execute(data.excerpt)
+  });
+
+  data.content && objectAssign(data, {
     content: tp.execute(data.content)
   });
+
+  data.title && objectAssign(data, {
+    title: tp.execute(data.title)
+  });
+
+  return data;
 });
