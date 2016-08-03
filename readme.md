@@ -1,4 +1,6 @@
-[typograf](https://github.com/typograf/typograf) plugin for [Hexo](https://github.com/hexojs/hexo).
+[Typograf](https://github.com/typograf/typograf) plugin for [Hexo](https://github.com/hexojs/hexo).
+
+Typograf works great for Russian texts. There might be a better plugin for English texts like [hexo-typo](https://github.com/borisschapira/hexo-typo) that uses [tipograph](https://github.com/pnevyk/tipograph) or something like that.
 
 ## Usage
 
@@ -6,6 +8,8 @@
 npm install --save hexo-typograf
 ```
 
+Hexo automatically loads plugins with `hexo-` prefix from `node_modules` folder. Don't forget to set language in `_config.yml`.
+
 ## Configuration
 
-Plugin uses global `config.language` value from root `_config.yml` file.
+Plugin uses `language` value from root `_config.yml` file.
