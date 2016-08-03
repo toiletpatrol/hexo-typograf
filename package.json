@@ -1,17 +1,26 @@
 {
   "name": "hexo-typograf",
-  "version": "1.0.0",
-  "description": "Typograf plugin for Hexo",
+  "version": "0.0.1",
+  "description": "Typography plugin for Hexo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "hexo",
-    "typograf"
+    "plugin",
+    "typograf",
+    "typography"
   ],
-  "author": "Vasiliy Mamaevskiy",
+  "author": {
+    "name": "Vasiliy Mamaevskiy",
+    "email": "toiletpatrol@ya.ru"
+  },
+  "homepage": "https://github.com/toiletpatrol/hexo-typograf",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toiletpatrol/hexo-typograf/issues"
+  },
   "dependencies": {
     "typograf": "^5.3.3",
     "object-assign": "^4.0.1"
